@@ -5,8 +5,8 @@
    Tutorial 11
    Case Problem 1
 
-   Author: 
-   Date:   
+   Author: Caleb Snow
+   Date:   3/13/19
    
    Filename: bw_review.js
 	
@@ -33,19 +33,28 @@
       within textStr
 
 */
+document.addEventListener("onload", init());
+
+//creates a functionto identify the type of control that performs an action
+
+function init() {
+      var stars = document.querySelectorAll("span#starts");
+      for (var i = 0; i < array.length; i++) {
+
+      }
+}
 
 
 
-  
 
 
-  
-  
-  
+
+
+
 /*=================================================================*/
 
 function countCharacters(textStr) {
-   var commentregx = /\s/g;
-   var chars = textStr.replace(commentregx, "");
-   return chars.length;
-}   
+      var commentregx = /\s/g;
+      var chars = textStr.replace(commentregx, "");
+      return chars.length;
+}
